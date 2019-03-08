@@ -10,10 +10,20 @@ body {
 #mitch_head {
     position: absolute;
     padding: 10px;
-    left:50%;
+    left:47%;
+    top: 33%;
     cursor: move;
-    z-index: 10;
+    z-index: 11;
     width: 5%;
+}
+
+#arrow {
+    position: absolute;
+    padding: 10px;
+    left:43.75%;
+    top: 30%;
+    z-index: 10;
+    width: 10%;
 }
 
 #ball {
