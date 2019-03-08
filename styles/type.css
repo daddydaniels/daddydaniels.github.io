@@ -1,0 +1,138 @@
+/* Style the links inside the sidenav */
+body {
+    background-color:#ffffff;
+}
+
+#main {
+    text-align: center;
+}
+
+#mitch_head {
+    position: absolute;
+    padding: 10px;
+    left:50%;
+    cursor: move;
+    z-index: 10;
+    width: 5%;
+}
+
+#ball {
+    position: absolute;
+    padding: 10px;
+    left:50%;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(18, 219, 186);
+    color: #fff;
+    text-align: center;
+}
+
+    
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+}
+
+
+.fa-arrow-alt-circle-down {
+    position: sticky;
+    font-size: 100px;
+    display: inline-block;
+    color: rgb(18, 219, 186);
+}
+
+
+#Sidenav {
+    position: fixed; /* Position them relative to the browser window */
+    top: 0; 
+    left: -140px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    width: 160px; /* Set a specific width */
+    height: 100%;
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    border-radius: 0 20px 20px 0; /* Rounded corners on the top right and bottom right side */
+    background-color: #222020;
+    display: block;
+    text-align: left;
+}
+  
+#Sidenav:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#myTabs{
+    margin-top: 20px;
+}
+
+#myTabs a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+}
+
+#myTabs a:hover {
+    background-color: #f1f1f1;
+    color: #222020;
+}
+
+@media screen and (max-width: 600px) {
+    #myTabs a{
+      font-size: 20px;
+    }
+  }
+
+#profile {
+    position: absolute; /* Position them relative to the browser window */
+    top: 1%;
+    width: 25%;
+    height: 150%;
+    text-decoration: none; /* Remove underline */
+    color: #222020; /* White text color */
+    border-radius: 20px 20px 20px 20px; /* Rounded corners on the top right and bottom right side */
+    background-color: white;
+    display: inline-block;
+    left: 25px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px #222020;
+}
+
+#pic {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#work {
+    position: absolute; /* Position them relative to the browser window */
+    top: 1%;
+    width: 50%;
+    height: 150%;
+    text-decoration: none; /* Remove underline */
+    color: #222020; /* White text color */
+    border-radius: 20px 20px 20px 20px; /* Rounded corners on the top right and bottom right side */
+    background-color: white;
+    display: block;
+    left: 27.5%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px #222020;
+
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+
+  
