@@ -3,144 +3,95 @@ body {
     background-color:#ffffff;
 }
 
-#main {
-    text-align: center;
+* {
+    border: 1px solid black;
+    margin:0;
+    padding:0;
+}
+
+#banner{
+    display: block;
+}
+
+#page{
+    display: block;
+}
+
+
+.banner-content{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-content{
+    display: inline-block;
+    bottom: 10px;
+    top: 40px;
+}
+
+#mitch_cage{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
 }
 
 #mitch_head {
-    position: absolute;
-    padding: 10px;
-    left:47%;
-    top: 33%;
-    cursor: move;
-    z-index: 11;
-    width: 5%;
+    position: relative;
+    left:-50%;
 }
 
-#arrow {
-    position: absolute;
-    padding: 10px;
-    left:43.75%;
-    top: 30%;
-    z-index: 10;
-    width: 10%;
+#stuff {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    margin-top: 10px;
+    transition: .5s;
 }
 
-#ball {
-    position: absolute;
-    padding: 10px;
-    left:50%;
-    cursor: move;
-    z-index: 10;
-    background-color: rgb(18, 219, 186);
-    color: #fff;
-    text-align: center;
+#slider {
+    position: fixed;
+    left: -200px;
+    top: 40px;
+    bottom: 0px;
+    width: 200px;
+    transition: .5s;
+    visibility: hidden;
 }
 
-    
-.circleBase {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-    width: 10px;
-    height: 10px;
-    background: #ccc;
+#currentTab {
+    background-color: grey;
+}
+
+.fa-bars {
+    font-size: 20px;
+    padding: 5px;
 }
 
 
-.fa-arrow-alt-circle-down {
-    position: sticky;
-    font-size: 100px;
-    display: inline-block;
-    color: rgb(18, 219, 186);
-}
-
-
-#Sidenav {
-    position: fixed; /* Position them relative to the browser window */
-    top: 0; 
-    left: -140px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    width: 160px; /* Set a specific width */
-    height: 100%;
-    text-decoration: none; /* Remove underline */
-    color: white; /* White text color */
-    border-radius: 0 20px 20px 0; /* Rounded corners on the top right and bottom right side */
-    background-color: #222020;
+.tabs {
     display: block;
-    text-align: left;
-}
-  
-#Sidenav:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-}
-
-#myTabs{
-    margin-top: 20px;
-}
-
-#myTabs a{
-    padding: 6px 8px 6px 16px;
+    padding: 10px;
+    text-align: right;
     text-decoration: none;
-    font-size: 25px;
-    color: #f1f1f1;
-    display: block;
+    color: inherit;
 }
 
-#myTabs a:hover {
-    background-color: #f1f1f1;
-    color: #222020;
+#disclosure {
+    position: absolute;
+    bottom: 0;
 }
 
-@media screen and (max-width: 600px) {
-    #myTabs a{
-      font-size: 20px;
-    }
-  }
-
-#profile {
-    position: absolute; /* Position them relative to the browser window */
-    top: 1%;
-    width: 25%;
-    height: 150%;
-    text-decoration: none; /* Remove underline */
-    color: #222020; /* White text color */
-    border-radius: 20px 20px 20px 20px; /* Rounded corners on the top right and bottom right side */
-    background-color: white;
+#selection-container {
+    position: absolute;
     display: inline-block;
-    left: 25px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 30px #222020;
+    bottom: 10px;
+    top: 30px;
+    left: 10px;
 }
 
-#pic {
-    border-radius: 20px;
-    display: block;
-    width: 100%;
-    height: auto;
+.selections {
+    display: inline-block;
 }
-
-#work {
-    position: absolute; /* Position them relative to the browser window */
-    top: 1%;
-    width: 50%;
-    height: 150%;
-    text-decoration: none; /* Remove underline */
-    color: #222020; /* White text color */
-    border-radius: 20px 20px 20px 20px; /* Rounded corners on the top right and bottom right side */
-    background-color: white;
-    display: block;
-    left: 27.5%;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 30px #222020;
-
-}
-
-p {
-    text-align: center;
-}
-
 
 
 

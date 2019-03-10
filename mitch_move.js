@@ -1,3 +1,5 @@
+console.log("Instead of inspecting my website, go buy my merchandise you lil'bitch-ass_boiler+cunt~fuck.");
+
 dragElement(document.getElementById("mitch_head"));
 
 function dragElement(elmnt) {

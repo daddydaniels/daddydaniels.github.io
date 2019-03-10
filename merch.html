@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html>
-<title>ChristophSH</title>
+<title>Mitch Maniels</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel = "stylesheet" type = "text/css" href = "styles/type.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<script src="ball_move.js"></script>
+
+
 
 
 <body>
-        
-    
+
+    <div>
+        <div id="banner">
+            <div class="banner-content" id="menu" onclick="expand('slider','stuff')">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="banner-content" id="header">DaddyDaniels.Net</div>
+            
+        </div>
+        <div id="page">
+            <div class="page-content" id="slider">
+                    <a class="tabs" href="index.html">Home</a>
+                    <a class="tabs" id="currentTab" href="merch.html">Merch</a>
+                    <div class="tabs">Daddy Daniels</div>
+                    <div class="tabs">Donate</div>
+            </div>
+            <div class ="page-content" id="stuff">
+                <p>Choose from any of DaddyDaniels.Net selections below!</p>
+                <div id="selection-container">
+                    
+                    <div class="selections">
+                            <p>option 1</p>
+                            <img src="images/MrFreeze.png">
+                            <p>$15 per shirt</p>
+                            <div>
+                                <select id="Size1">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                                <input type="number" id="Quantity1" min="1" max="5">
+                                <button onclick="AddToCart('1')">Add to Cart</button>
+                            </div>
+                        </div>
+                    <div class="selections">
+                        <p>option 2</p>
+                        <img src="images/daddyMitch.png">
+                        <p>$15 per shirt</p>
+                        <div>
+                            <select name="Size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <input type="number" name="quantity" min="1" max="5">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+<script src="shop.js"></script>
+
 
 </body>
 </html>

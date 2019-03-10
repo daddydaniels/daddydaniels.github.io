@@ -7,30 +7,38 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-<body>
-        
-<div id="main">
-    
-    
-    <img src="images/mitch_head.png" id="mitch_head">
-    <img src="images/arrow.png" id="arrow">
 
-    <div id="Sidenav">
-        <div id="myTabs">
-            <a href="#">Home</a>
-            <a href="merch.html">Merch</a>
-            <a href="#">New Soon</a>
+
+<body>
+
+    <div>
+        <div id="banner">
+            <div class="banner-content" id="menu" onclick="expand('slider','stuff')">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="banner-content" id="header">DaddyDaniels.Net</div>
+            
+        </div>
+        <div id="page">
+            <div class="page-content" id="slider">
+                    <a class="tabs" id="currentTab" href="index.html">Home</a>
+                    <a class="tabs" href="merch.html">Merch</a>
+                    <div class="tabs">Daddy Daniels</div>
+                    <div class="tabs">Donate</div>
+            </div>
+            <div class ="page-content" id="stuff">
+                <p>Welcome to DaddyDaniels.Net your #1 resource for all Daddy Daniels related merchandise!</p>
+                <p id="disclosure">Disclosure: DaddyDaniels.Net is not affiliated with Mitch Daniels or Purdue University.</p>
+                <div id="mitch_cage">
+                    <img src="images/mitch_head.png" id="mitch_head">
+                </div>
+            </div>
         </div>
     </div>
 
-    
-</div>
+<script src="mitch_move.js"></script>
+<script src="script.js"></script>
 
-<script src="ball_move.js"></script>
-<script src="string_physics.js"></script>
-
-
-    
 
 </body>
 </html>

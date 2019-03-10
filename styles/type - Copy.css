@@ -1,0 +1,74 @@
+/* Style the links inside the sidenav */
+body {
+    background-color:#ffffff;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+  }
+
+  .fa-bars {
+      padding: 10px;
+      font-size: 20px;
+      display: inline-block;
+      color: black;
+      vertical-align: middle;
+      border: 1px solid #000;
+  }
+
+  .fa-bars:hover {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    background: #ccc;
+  }
+  
+
+  div#banner { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    /*background-color: #222020; */
+    background-color: white;    
+    width: 100%; 
+    border: 1px solid #000;
+  }
+
+  
+  div#banner-content { 
+    display: inline-block;
+    margin: 0 auto; 
+    color: black;
+    vertical-align: middle;
+    border: 1px solid #000;
+}
+
+  div#main-content { 
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+div#menu {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+
+#mitch_head {
+    position: absolute;
+    padding: 10px;
+    cursor: move;
+    z-index: 11;
+    width: 5%;
+    border: 1px solid #000;
+}*/
+
+
+
+
+
+
+  
